@@ -28,7 +28,7 @@ public class Test {
         System.out.println(3^10);
         //~Not 비트연산자
         System.out.println(~3);
-    
+        // 수정
     }
 
 }
