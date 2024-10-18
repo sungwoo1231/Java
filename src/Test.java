@@ -29,6 +29,7 @@ public class Test {
         //~Not 비트연산자
         System.out.println(~3);
         // 수정
+
     }
 
 }
