@@ -18,9 +18,9 @@ public class Example7 {
         System.out.println(getMax(50, 50)); // 두 수는 같음"
     }
     public static String getMax(int a , int b){
-        if (a > b) {
-            return ("큰 수는 " + a);
-        } else if (a > b){
+        if (a < b) {
+            return ("큰수는"+a);
+        } else if (a < b){
             return ("큰 수는 " + b);
         } else {
             return ("두 수는 같음");
