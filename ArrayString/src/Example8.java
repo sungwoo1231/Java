@@ -11,12 +11,12 @@ public class Example8 {
     }
     public static String reverseString(String str) {
 
-    char[] A=str.toCharArray();        //char[] chArray = str.toCharArray();
-    char[] B=new char[A.length];      //char[] newArray = new char[chArray.length];
+    char[] A=str.toCharArray();       // char[] chArray = str.toCharArray();
+    char[] B=new char[A.length];     // char[] newArray = new char[chArray.length];
     for (int i=0; i< A.length; i++) {   //int j = chArray.length -1;
-        for (int j = 0; j < A.length; j++) {   //for (int i=0; i<chArray.length; i++ {
-            if (i + j == A.length - 1) {       //newArray[j] = chArray[i];
-                B[i] = A[j];              //j=j -1;
+        for (int j = 0; j < A.length; j++) { //  for (int i=0; i<chArray.length; i++ {
+            if (i + j == A.length - 1) {      // newArray[j] = chArray[i];
+                B[i] = A[j];            //  j=j -1;
             }
 
         }
