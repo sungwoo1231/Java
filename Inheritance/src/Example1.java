@@ -1,3 +1,4 @@
+import javax.security.auth.Subject;
 import java.security.PrivateKey;
 import java.util.Arrays;
 
@@ -17,7 +18,16 @@ class Student {
    private String studentId;
    private String name;
    private int grade;
-   private double[] scores; // 점수의 배열 {국어,영어,수학}
+   private double[] scores;// 점수의 배열 {국어,영어,수학}
+    public Subject[] score;
+
+    class Subject {
+        String subject = "math";
+        double score=70;
+    }
+public static void Subject(){
+
+}
 
 
 
