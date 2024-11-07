@@ -29,7 +29,7 @@ public class Example2 {
         album1.addTracks("FFF");
         album1.addTracks("GGG");
         System.out.println(Arrays.toString(album1.getTracks()));
-        System.out.println(album1.toString());
+
     }
 }
 
@@ -42,11 +42,16 @@ class Album {
     public Album(String title, double releaseYear, String[] tracks) {
         this.title = title;
         this.releaseYear = releaseYear;
-        this.tracks = new String[5];
+        this.tracks = tracks;
+    }
+
+    @Override
+    public String toString() {
+        return "앨범제목:" + this.title + " 발매연도:" + this.releaseYear;
     }
 
     public Album() {
-
+        this.tracks = new String[5];
     }
 
     public String getTitle() {
@@ -73,20 +78,15 @@ class Album {
         this.tracks = tracks;
     }
 
-    @Override
-    public String toString() {
-        return "앨범제목:" + title + " " + "발매연도" + releaseYear;
-    }
 
     public void addTracks(String track) {
         for (int i = 0; i < this.tracks.length; i++) {
-            if () {
-                tracks[i] = track;
-
-            } else {
-
+            if (this.tracks[i]==null) { //비었으면
+                this.tracks[i] = track; // 매개변수로 받은 곡제목을 저장
+                return;
             }
         }
+        System.out.println("더 이상 추가할 수가 없어요: "+track);
     }
 }
 
