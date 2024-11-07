@@ -19,15 +19,15 @@ class Student {
    private String name;
    private int grade;
    private double[] scores;// 점수의 배열 {국어,영어,수학}
-    public Subject[] score;
+   // public Subject[] score;
 
-    class Subject {
-        String subject = "math";
-        double score=70;
-    }
-public static void Subject(){
-
-}
+//    class Subject {
+//        String subject = "math";
+//        double score=70;
+//    }
+//public static void Subject(){
+//
+//}
 
 
 
@@ -86,6 +86,11 @@ public static void Subject(){
         }
         return sum / this.scores.length;
     }
+
+    @Override
+    public String toString() {
+        return "아이디:" + studentId + "이름:" + name + " " + grade + "학년";
+    }
 }
 
 public class Example1 {
@@ -113,5 +118,8 @@ public class Example1 {
         System.out.println(Arrays.toString(s2.getScores()));
         // 평균
         System.out.println(s2.calAverage());
+
+
+        System.out.println(s2.toString());
     }
 }
