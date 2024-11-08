@@ -23,10 +23,10 @@ package Super1;
 public class Super_1 {
     public static void main(String[] args) {
         B value1 = new B();
-        value1.abc(); // B 클래스 abc
-        value1.bcd(); // B 클래스 bcd
-        A value2 = (A)value1; // 업캐스팅
-        value2.abc(); // B 클래스 abc (오버라이딩)
+       // value1.abc(); // B 클래스 abc
+     //  value1.bcd(); // B 클래스 bcd
+      A value2 = (A)value1; // 업캐스팅
+       value2.abc(); // B 클래스 abc (오버라이딩)
        // value2.bcd(); // 에러..A를 바인딩(참조)하고 있으므로 B 영역에 있는 bcd 메서드는 호출이 불가능하다.
     }
 }

@@ -14,7 +14,7 @@ toString 오버라이딩 메서드
 tracks 배열에 곡의 제목을 한개 추가하는 메서드 (addTracks)
 */
 
-public class Example2 {
+public class  Example2 {
     public static void main(String[] args) {
         Album album1 = new Album();
         album1.setTitle("Java");

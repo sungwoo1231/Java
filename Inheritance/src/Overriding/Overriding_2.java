@@ -3,7 +3,7 @@ package Overriding;
 
 import javax.swing.*;
 
-class Animal {
+class  Animal {
     void cry() {
         System.out.println("...");
     }
