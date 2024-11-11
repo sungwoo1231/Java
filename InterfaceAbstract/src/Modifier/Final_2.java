@@ -19,7 +19,8 @@ class B1 extends A{
 
   // final 메서드와 final 클래스 예제
 public class Final_2 {
-    public static void main(String[] args) {
+      public static void main(String[] args) {
 
-    }
-}
+      }
+  }
+  
