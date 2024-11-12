@@ -13,7 +13,7 @@ public class Main {
         Shape rectangle = new Rectangle(4,6);
         System.out.println(rectangle.area()); // 24.0
         // Square
-        Rectangle square = new Square(4,5);
+        Rectangle square = new Square(4);
         System.out.println(square.area());
         // payment
         Payment credit = new CreditCard(20000,"A001","1234-5678","2030-12-31");
