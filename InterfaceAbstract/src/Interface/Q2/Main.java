@@ -44,7 +44,7 @@ abstract class Shape implements Calculatable, Colorable {
     @Override
     public String getColor() {
 
-        return "blue";
+        return color;
     }
 }
 
@@ -61,7 +61,7 @@ class Triangle extends Shape {
 
     @Override
     public double getArea() {
-        return base *height /2 ;
+        return (base *height) /2 ;
     }
 
     @Override
@@ -83,7 +83,7 @@ class Circle extends Shape implements Resizable {
 
     @Override
     public void resize(double factor) {
-        this.radius *=factor;
+       radius = radius * factor;
     }
 
     @Override

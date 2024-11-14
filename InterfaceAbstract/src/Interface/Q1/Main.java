@@ -53,7 +53,7 @@ class Bird extends Animal implements Movable, Soundable {
     @Override
     public int getSpeed() {
 
-        return speed;
+        return this.speed;
     }
 
     @Override
