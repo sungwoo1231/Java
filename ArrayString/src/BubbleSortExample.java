@@ -18,7 +18,7 @@ public class BubbleSortExample {
     public static void main(String[] args) {
         int[] arr ={3,60,35,2,45,320,5};
         bubbleSort(arr);
-        System.out.println();
+        System.out.println(Arrays.toString(arr));
     }
 }
 

@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class HashMap_1 {
     public static void main(String[] args) {
-        Map<Integer, String> hMap1 =  new HashMap<Integer, String>();
+        Map<Integer, String> hMap1 = new HashMap<Integer, String>();
 
         //#1. put (K key, V value)
         hMap1.put(2, "나다라");
@@ -60,7 +60,7 @@ public class HashMap_1 {
         // Map.Entry는 Map의 이너인터페이스
         // enrtySet()은 key와 value를 쌍으로 묶어서 Set에 담아 리턴
         // 반복문에 주로 사용됨
-        Set<Map.Entry<Integer,String>> entrySet = hMap2.entrySet();
+        Set<Map.Entry<Integer, String>> entrySet = hMap2.entrySet();
         System.out.println(entrySet.toString()); //[1=나나나, 2=나다라, 3=다라마]
 
         //#10. size();
@@ -81,26 +81,26 @@ public class HashMap_1 {
         System.out.println(hMap2.toString()); //{}
 
         // 패턴1. HashMap에서 반복문을 사용하는 패턴
-        Map<Integer,String> map = new HashMap<>();
-        map.put(1,"Apple");
-        map.put(2,"Banana");
-        map.put(3,"Cherry");
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "Apple");
+        map.put(2, "Banana");
+        map.put(3, "Cherry");
         // 패턴1. KeySet()을 이용하는 방법
-        for (Integer k : map.keySet()){ // For-each 반복문이라고 부르기도함
+        for (Integer k : map.keySet()) { // For-each 반복문이라고 부르기도함
             String value = map.get(k);
             System.out.println(k + " = " + value);
         }
         // 패턴2. entrySet()을 이용하는 방법
-        for (Map.Entry<Integer,String> entry : map.entrySet()){
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
             Integer key = entry.getKey();
             String value = entry.getValue();
             System.out.println(key + " = " + value);
         }
         // 패턴3. Iterator를 이용하는 방법
-        Iterator<Map.Entry<Integer,String>> iterator =
+        Iterator<Map.Entry<Integer, String>> iterator =
                 map.entrySet().iterator();
-        while (iterator.hasNext()){
-            Map.Entry<Integer,String> entry = iterator.next();
+        while (iterator.hasNext()) {
+            Map.Entry<Integer, String> entry = iterator.next();
             System.out.println(entry.getKey() + " = " + entry.getValue());
         }
     }
