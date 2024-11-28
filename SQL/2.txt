@@ -67,9 +67,21 @@ SQL 함수
 
 4. 제어 함수 
 
+<쿼리실행(완료)순서>
+1. from 어느 테이블에서 정보를 가져올지 결정
+2. where 어떤 정보를 가져올지 결정(조건)
+3. group by 그룹화
+4. selcet 원하는 컬럼(열)을 추출,생성 - 별칭 생성
+5. having 그룹에 조건을 적용
+6. order by 정렬
+7. limt 개수 정렬 
 
-
-
+<서브쿼리의 경우에는 where절에서도 별칭 사용가능>
+selcet *
+from (
+       select datediff(발송일,요청일) as 지연일수
+from 주문)
+where 지연일수 >= 7;
 
 
 
