@@ -74,7 +74,7 @@ SQL 함수
 4. selcet 원하는 컬럼(열)을 추출,생성 - 별칭 생성
 5. having 그룹에 조건을 적용
 6. order by 정렬
-7. limt 개수 정렬 
+7. limit 개수 정렬 
 
 <서브쿼리의 경우에는 where절에서도 별칭 사용가능>
 selcet *
@@ -85,22 +85,30 @@ where 지연일수 >= 7;
 
 
 
+ SQL의 특징
+- 쉽고 직관적임
+= 거의 모든 관계형 데이터베이스이 표준 언어
+- 데이터를 다루는 다양한 가능 제공
 
+SQL문의 종류
+1)DDL(Data Definition Language) 데이터 정의어
+: 데이터베이스의 구조를 정의하거나 변경하는데 사용 
+-create: 테이블,인덱스,뷰를 생성함
+-alter: 테이블 구조를 변경함
+-drop: 테이블, 인덱스, 뷰등을 삭제함
+-truncate: 테이블의 모든 데이터를 삭제하지만 구조는 유지 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2)DML(Data Manipulation Language) 데이터 조작어
+: 데이터 행(row)를 조작,삽입,엡데이트,삭제하는데 사용됨
+- selec: 데이터를 조회
+-insert: 데이터를 삽입
+-update: 데이터를 수정
+-delete: 데이터를 삭제
+3)DCL(Data Control Language) 데이터 제어어
+: 데이터에 대한 액세스를 제어하고 권한을 부여 또는 취소하는데 사용됨
+- grant: 사용자의 권한 부여
+-revoke: 사용자의 권한 취소
+4)TCL(Transaction Control Language) 트랜잭션 제어어
+: 트랜잭션의 수행 결과를 저장하거나 또는 취소하는데 사용됨
+- commit: 트랜잭션 작업 내용을 데이터베이스에 영구 저장
+- rollback: 트랜잭션 작업 내용을 취소
