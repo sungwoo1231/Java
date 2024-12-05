@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd65696c-4d11-4b64-9b3e-6ec04f9eca18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CodingTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/EletricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Maintenance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/2.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sungwoo1231&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sungwoo1231/Java.git&quot;,
+    &quot;accountId&quot;: &quot;3ab6c6a0-f501-4adc-b25a-a16673dc343e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pmeoQCcydGKr2VIdwIL8IAb9wT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dw-008/Documents/GitHub/Java/untitled/src/Main.java&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="untitled" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd65696c-4d11-4b64-9b3e-6ec04f9eca18" name="Changes" comment="" />
+      <created>1733375855071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733375855071</updated>
+    </task>
+    <servers />
+  </component>
+</project>

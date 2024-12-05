@@ -104,11 +104,16 @@ SQL문의 종류
 -insert: 데이터를 삽입
 -update: 데이터를 수정
 -delete: 데이터를 삭제
+                                                              
 3)DCL(Data Control Language) 데이터 제어어
 : 데이터에 대한 액세스를 제어하고 권한을 부여 또는 취소하는데 사용됨
 - grant: 사용자의 권한 부여
 -revoke: 사용자의 권한 취소
+
 4)TCL(Transaction Control Language) 트랜잭션 제어어
 : 트랜잭션의 수행 결과를 저장하거나 또는 취소하는데 사용됨
 - commit: 트랜잭션 작업 내용을 데이터베이스에 영구 저장
 - rollback: 트랜잭션 작업 내용을 취소
+
+
+
