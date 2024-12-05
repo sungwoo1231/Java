@@ -13,16 +13,8 @@ abstract public class Vehicle {
         return modelName;
     }
 
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
     public int getMaxSpeed() {
         return MaxSpeed;
-    }
-
-    public void setMaxSpeed(int maxSpeed) {
-        MaxSpeed = maxSpeed;
     }
 
     abstract void drive ();
