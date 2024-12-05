@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699bd72d-2725-46a7-bbc1-b775d58afb9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CodingTest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/EletricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Maintenance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingTest/src/CodingTest_1/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/2.txt" afterDir="false" />
-    </list>
+    <list default="true" id="699bd72d-2725-46a7-bbc1-b775d58afb9a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
