@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
-// List인터페이스의 두번째 구현클래스 LinkedList 사용법
+// List 인터페이스의 두번째 구현클래스 LinkedList 사용법
 // 요소를 노드(=node)라는 데이터구조에 저장함
 // 각 노드는 데이터와 다음 노드에 대한 참조를 저장함
 // 주요특징
