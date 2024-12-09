@@ -2,10 +2,16 @@ public class Department {
     private String departmentNumber;
     private String departmentName;
 
+    public Department() {
+
+    }
+
     public Department(String departmentNumber, String departmentName) {
         this.departmentNumber = departmentNumber;
         this.departmentName = departmentName;
     }
+
+
 
     public String getDepartmentNumber() {
         return departmentNumber;

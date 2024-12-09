@@ -33,7 +33,7 @@ public class Employee {
         this.departmentNumber = departmentNumber;
     }
 
-    public String getEmployeeNumber() {
+    public String getEmployeeNumber()  {
         return employeeNumber;
     }
 
@@ -84,6 +84,7 @@ public class Employee {
     public LocalDate getDateOfEmployment() {
         return dateOfEmployment;
     }
+
 
     public void setDateOfEmployment(LocalDate dateOfEmployment) {
         this.dateOfEmployment = dateOfEmployment;
@@ -138,7 +139,8 @@ public class Employee {
     }
 
     @Override
-    public String toString() {
+    public String
+    toString() {
         return "Employee{" +
                 "employeeNumber='" + employeeNumber + '\'' +
                 ", name='" + name + '\'' +
