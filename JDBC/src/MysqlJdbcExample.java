@@ -92,7 +92,7 @@ public class MysqlJdbcExample {
     public void getEmployees_2() {
         // 2) Map으로 동적 데이터 처리
         // 쿼리 결과의 구조가 자바클래스와 일치하지 않고 재사용 예정이라면
-        // 데이터를 Map구조(Key, Value)로 저장할 수 있음
+        // 데이터를 Map 구조(Key, Value)로 저장할 수 있음
         String query = "select 이름, 입사일, 부서명 from 사원 "
                 + "inner join 부서 on 사원.부서번호 = 부서.부서번호";
 
@@ -151,7 +151,7 @@ public class MysqlJdbcExample {
 //        }
 //    }
 // }
-        repository.getEmployees_2();
+       repository.getEmployees_2();
         System.out.println();
         repository.getEmployees_1();
         System.out.println() ;

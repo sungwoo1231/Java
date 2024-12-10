@@ -5,6 +5,9 @@ public class OrderDetail  {
     private int orderQuantity;
     private double discountRate;
 
+    public OrderDetail() {
+    }
+
     public OrderDetail(String orderNumber, int productNumber, double unitPrice, int orderQuantity, double discountRate) {
         this.orderNumber = orderNumber;
         this.productNumber = productNumber;

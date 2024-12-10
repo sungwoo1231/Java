@@ -33,6 +33,9 @@ public class Employee {
         this.departmentNumber = departmentNumber;
     }
 
+    public Employee() {
+    }
+
     public String getEmployeeNumber()  {
         return employeeNumber;
     }

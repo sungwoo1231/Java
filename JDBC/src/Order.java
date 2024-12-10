@@ -8,6 +8,9 @@ public class Order {
     private LocalDate requestDate;
     private LocalDate shippingDate;
 
+    public Order() {
+    }
+
     public Order(String orderId, String customerId, String employeeId, LocalDate orderDate, LocalDate requestDate, LocalDate shippingDate) {
         this.orderId = orderId;
         this.customerId = customerId;
