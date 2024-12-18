@@ -38,7 +38,7 @@ public class MysqlJdbcExample_2 {
         }
     }
     /*
-    Statement 와 PrepaerdStatement 차이점 설명
+    Statement 와 Prepare dStatement 차이점 설명
    \ 1. SQL Injection 취약성
     S : 매우 취약, P : 안전
     2. 캐싱 S : 항상 새로운 쿼리 실행 P : 동일한 쿼리는 캐싱하여 성능 향상
